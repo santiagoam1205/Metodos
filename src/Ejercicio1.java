@@ -1,4 +1,4 @@
-public class Ejercicion1 {
+public class Ejercicio1 {
     public static void mostrarbienvenida(){
         System.out.println("bienvenido al instituto");
     }
