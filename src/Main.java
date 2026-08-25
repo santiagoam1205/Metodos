@@ -37,3 +37,7 @@ public class Main {
         );
     }
 }
+/*mostrarBoletin() no debe ser static porque necesita acceder al atributo nota del estudiante actual mediante this.nota,
+por lo que depende de un objeto específico.
+En cambio,compararNotas() debe ser static porque no depende de ningún objeto;
+solamente recibe dos notas como parámetros y las compara.*/
